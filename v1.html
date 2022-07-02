@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文档标题</title>
+</head>
+  
+<body>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+	<tr><td colspan="10" style="text-align: center;padding: 25px 0px;color: #fff;font-size: 25px;background: #139fec;font-family: 宋体;">财信私有云平台巡检日报</td></tr>
+	<tr><td colspan="10" style="text-align: center;padding: 5px 0px;font-size: 18px;background: #ebf1de;font-family: 宋体;font-weight: bold;">财信私有云公共服务云平台资源大盘</td></tr>
+	<tr><td style="padding: padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">产品</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">资源</td>
+		<td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">已使用</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">已分配</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">总量</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">使用率</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">分配率</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">超分比</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">超分总量</td><td style="padding: 5px 0px;width:125px;text-align: center;font-family: 宋体;font-weight: bold;background: #5B9BD5;color:#fff;">容量阈值</td>
+    </tr>
+	<tr><td style="padding: 5px 0px;width:125px;text-align: center;" rowspan="2">计算</td><td style="padding: 5px 0px;width:125px;text-align: center;">CPU(核)</td><td style="padding: 5px 0px;width:125px;text-align: center;">1000</td><td style="padding: 5px 0px;width:125px;text-align: center;">1000</td><td style="padding: 5px 0px;width:125px;text-align: center;">2000</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td></tr>
+	<tr><td style="padding: 5px 0px;width:125px;text-align: center;">内存(GB)</td><td style="padding: 5px 0px;width:125px;text-align: center;">1000</td><td style="padding: 5px 0px;width:125px;text-align: center;">1000</td><td style="padding: 5px 0px;width:125px;;text-align: center;">2000</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td><td style="padding: 5px 0px;width:125px;text-align: center;">59%</td></tr>
+	<tr><td colspan="10" style="text-align: center;padding: 5px 0px;color:#000;font-size: 18px;background: #ebf1de;font-family: 宋体;font-weight: bold;">财信计算池资源详情</td></tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">集群名称</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">地域</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">CPU已使用(核)</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">CPU已分配(核)</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">CPU总量(核)</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">内存已使用(GB)</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">内存已分配(GB)</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">内存总量(GB)</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">宿主机数量</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;background:#ccc;color:#333;font-weight:bold;">云主机数量</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">BX-CLU-02</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">彩信金控</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">34</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">686</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">1728</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2049</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2824</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">12643</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">18</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">325</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">BX-CLU-02</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">彩信金控</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">34</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">686</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">1728</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2049</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2824</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">12643</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">18</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">325</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">BX-CLU-02</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">彩信金控</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">34</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">686</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">1728</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2049</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2824</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">12643</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">18</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">325</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">BX-CLU-02</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">彩信金控</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">34</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">686</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">1728</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2049</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">2824</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">12643</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">18</td>
+		<td style="padding: 5px 0px;text-align: center;font-size: 12px;">325</td>
+	</tr>
+	<tr><td colspan="10" style="text-align: center;padding: 5px 0px;color:#000;font-size: 18px;background: #ebf1de;font-family: 宋体;font-weight: bold;">财信私有云公共服务云平台健康检查</td></tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">序号</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">服务名称</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">检查结果是否正常</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">巡检负责人</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">备注</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">1</td>
+				<td style="padding: 5px 0px;text-align: center;" colspan="2">CMP运维服务</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">正常</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">自动化巡检</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">状态码返回200或401</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">2</td>
+				<td style="padding: 5px 0px;text-align: center;" colspan="2">CMP运营服务</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">正常</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">自动化巡检</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">状态码返回200或401</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">3</td>
+				<td style="padding: 5px 0px;text-align: center;" colspan="2">平台微服务</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">总数 39</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">自动化巡检</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2"></td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">4</td>
+				<td style="padding: 5px 0px;text-align: center;" colspan="2">平台物理机巡检</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">总数10 无硬件故障</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">自动化巡检</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">来源:运维平台-物理设备-硬件监控</td>
+	</tr>
+	<tr><td colspan="10" style="text-align: center;padding: 5px 0px;color:#000;font-size: 18px;background: #ebf1de;font-family: 宋体;font-weight: bold;">财信私有云公共服务云平台监控告警</td></tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">告警名称</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">告警服务</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">告警等级</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">当前状态</td>
+		<td style="padding: 5px 0px;text-align: center;background:#ccc;color:#333;font-weight:bold;" colspan="2">告警时间</td>
+	</tr>
+	<tr>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">进程OOM</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">数据库</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">高危</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">处理中</td>
+		<td style="padding: 5px 0px;text-align: center;" colspan="2">2022-06-30 13:20</td>
+	</tr>
+</table>
+</body>
+ 
+</html>
